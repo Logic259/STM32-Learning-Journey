@@ -1,0 +1,22 @@
+# 忽略 Keil 编译生成的临时文件夹
+Objects/
+Listings/
+DebugConfig/
+
+# 忽略各种编译过程产生的垃圾文件
+*.o
+*.d
+*.crf
+*.bak
+*.dep
+*.map
+*.axf
+*.sct
+*.iex
+*.htm
+*.lnp
+
+# 忽略用户的本地IDE配置文件 (不要把你的本地电脑路径传上去)
+*.uvoptx
+*.uvguix.*
+*.Administrator
